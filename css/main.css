@@ -62,7 +62,7 @@ html, body{
 
 .container{
     max-width: 1200px;
-
+    overflow-x: hidden;
     padding: 0 15px;
     margin: 0 auto;
 }
