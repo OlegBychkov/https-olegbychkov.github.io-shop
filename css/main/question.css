@@ -85,6 +85,9 @@
     .ask__item{ 
         padding: 18px 15px 20px 25px;     
     }
+     .ask__arrow{
+        transition: transform 0.15s ease-in;
+    }
     .ask__title{
         font-size: 15px;
     }
