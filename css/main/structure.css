@@ -1,0 +1,103 @@
+.structure__content__wrapper {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; */
+    gap: 31px 0px;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 70px 0px;
+}
+.side--left {
+    position: relative;
+    border: 6px solid var(--color-blue-bg);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 37px 53px;
+    flex-basis: content;
+    width: 601px;
+    height: 601px;
+    flex-shrink: 1;
+    padding-right: 20px;
+}
+.side__logo--left{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.side__title--left {
+    color: var(--color-blue);
+    max-width: 600px;
+
+    margin-bottom: 20px;
+}
+.side__text__wrapper--left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    max-width: 515px;
+    height: 100%;
+}
+.side__text--left {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+
+    margin-bottom: 20px;
+}
+.side--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../../img/structure/question.svg);
+    background-repeat: no-repeat;
+    background-size: contain;    ;
+    background-position: 250px center;
+
+    flex-basis: content;
+    max-width: 515px;
+    flex-shrink: 1;
+    padding: 30px 20px 30px 20px;
+}
+.side__title--rigth{
+    margin-bottom: 23px;
+}
+.side__title--rigth span{
+    color: var(--color-blue);
+}
+.side__text--right {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+@media (max-width: 930px) {
+    .structure__content__wrapper{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .side--right {
+        padding: 30px 20px 30px 0px;
+        background-position-x: right; 
+        max-width: 601px;
+    }
+}
+@media (max-width: 700px) {
+    .structure__content__wrapper{
+        padding-top: 26px;
+        padding-bottom: 25px;
+    }
+    .side__text--right{
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .side__text--left {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+    }
+}

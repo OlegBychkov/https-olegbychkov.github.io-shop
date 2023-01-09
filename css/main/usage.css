@@ -1,0 +1,124 @@
+.usage__content__wrapper{
+    padding: 51px 0px 0px 17px;
+}
+.usage__title {
+    margin-bottom: 21px;
+}
+.usage__title span{
+    color: var(--color-blue);
+}
+.usage__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+
+    max-width: 1000px;
+    margin-bottom: 60px;
+}
+.usage__text__list {
+    display: flex;
+    flex-direction: column;
+}
+.usage__text__item{
+    position: relative;
+    padding-top: 17px;
+    padding-left: 25px;
+    padding: 17px 0px 26px 25px;
+
+    border: 6px solid var(--color-blue-bg);
+    border-radius: 15px;
+}
+.usage__text__item:nth-child(1){
+    max-width: 760px;
+    align-self: flex-end;
+    margin-right: 179px;
+
+    margin-bottom: 98px;
+}
+.usage__text__item:nth-child(2){
+    max-width: 505px;
+    align-self: flex-start;
+    margin-left: 153px;
+
+    margin-bottom: 150px;
+}
+.usage__text__item:nth-child(3){
+    max-width: 557px;
+    align-self: flex-end;
+    margin-bottom: 125px;
+}
+.usage__text__item:nth-child(4){
+    max-width: 790px;
+    align-self: flex-start;
+    margin-bottom: 105px;
+}
+.usage__text{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+}
+.usage__img-1{
+    position: absolute;
+    top: -24px;
+    right: -190px;
+}
+.usage__img-2{
+    position: absolute;
+    top: -4px;
+    right: 302px;
+}
+.usage__img-3{
+    position: absolute;
+    top: -28px;
+    right: 585px
+}
+.usage__img-4{
+    position: absolute;
+    top: 53px;
+    right: -145px;
+}
+
+@media (max-width:1150px) {
+    .usage__img-3{
+        position: absolute;
+        top: -190px;
+        right: -10px
+    }
+    .usage__text__item:nth-child(2){   
+        margin-bottom: 260px;
+    }
+}
+@media (max-width: 950px) {
+    .usage__subtitle {
+        margin-bottom: 0px;
+    }
+    .usage__text__list {
+        display: none;
+    }
+    .usage__subtitle span{
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 850px) {
+    .transition{
+        display: block;
+    }
+}
+@media (max-width: 700px) {
+    .usage__content__wrapper{
+        padding-top: 46px;
+    }
+    .usage__subtitle {
+        font-size: 15px;
+    }
+    .transition{
+        display: inline;
+    }
+}
+@media (max-width: 500px) {
+    .transition{
+        display: block;
+    }
+}
+

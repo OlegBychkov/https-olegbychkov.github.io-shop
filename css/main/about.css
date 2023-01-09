@@ -1,0 +1,109 @@
+.about {
+}
+.container {
+}
+.about__content__wrapper {
+    padding-top: 34px;
+    padding-bottom: 68px;
+}
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0px;
+}
+.about__content--top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.about__text-box--top {
+    text-align: left;
+    margin-bottom: 17px;
+}
+.about__title {
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.about__subtitle {
+    max-width: 450px;
+
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: var(--color-blue-second);
+}
+.about__img--top {
+}
+.about__content--bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about__text--bottom {
+    max-width: 450px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+
+    margin-bottom: 24px;
+}
+.about-side__list--right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 515px;
+}
+.about-side__item--right {
+    display: flex;
+    flex-direction: column;
+    gap: 23px 0px;
+    align-items: center;
+    text-align: center;
+} 
+
+@media (max-width: 1030px) {
+    .about__content__wrapper{
+        padding: 34px 20px 46px 20px;
+    }
+    .about__subtitle {
+        max-width: 800px;
+    }
+    .about__content--top {
+        align-items: center;
+    }
+    .about__content--top,
+    .about__content--bottom{
+        flex-direction: column;
+    }
+    .about__content{
+        align-items: center;
+    }
+    .about__content--bottom{
+        align-items: center;
+    }
+    .about__text--bottom {
+        max-width: 800px;
+        text-align: justify;
+    }
+    .about-side__list--right{
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .about__subtitle{
+        font-size: 16px;
+    }
+    .about__text--bottom{
+        font-size: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .about-side__item--center{
+        display: none;
+    }
+}

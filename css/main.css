@@ -1,0 +1,130 @@
+@import url(../fonts/museo/museo_sans.css);
+@import url(../fonts/geometria/geometria.css);
+
+@import url(../css/reset.css);
+
+@import url(../css/header.css);
+@import url(../css/main/pain.css);
+@import url(../css/main/brace.css);
+@import url(../css/main/treatment.css);
+@import url(../css/main/statistics.css);
+@import url(../css/main/structure.css);
+@import url(../css/main/detensor.css);
+@import url(../css/main/about.css);
+
+@import url(../css/main/form-call.css);
+@import url(../css/main/usage.css);
+@import url(../css/main/warning.css);
+@import url(../css/main/time.css);
+@import url(../css/main/review.css);
+@import url(../css/main/get.css);
+@import url(../css/main/selection.css);
+@import url(../css/main/sir.css);
+@import url(../css/main/completeness.css);
+@import url(../css/main/test.css);
+@import url(../css/main/question.css);
+@import url(../css/main/clients.css);
+@import url(../css/main/video.css);
+
+@import url(../css/main/usage-mobile.css);
+
+@import url(../css/form.css);
+@import url(../css/footer.css);
+
+:root{
+    --color-white:#FFFFFF;
+    --color-blue: #049DD8;
+    --color-dark-blue: #006884;
+    --color-grey: #F6FAFF;
+    --color-green: #3CC39D;
+    --color-dark-bg-blue: #006795;
+    --color-black: #000000;
+    --color-blue-bg: #E1ECFF;
+    --color-blue-second: #029DDA;
+    --color-grey-seconsd: #9F9F9F;
+
+    --color-gradient: linear-gradient(45deg, rgba(251,63,215,1) 0%, rgba(70,252,235,1) 100%);;
+
+    --color-bg: var(--color-grey);
+}
+
+
+html, body{
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.none{
+    display: none;
+}
+
+.container{
+    max-width: 1200px;
+
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button{
+    position: relative;
+    background: var(--color-gradient);
+    background-size: 300%;
+    border-radius: 5px;
+
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+/* .button:hover{
+    box-shadow: 0px 0px 100px 0px var( --color-blue);
+    -webkit-box-shadow: 0px 0px 100px 0px var( --color-blue);
+    -moz-box-shadow: 0px 0px 100px 0px var( --color-blue);
+}
+.button:active{
+    box-shadow: 0px 0px 100px 0px var( --color-green);
+    -webkit-box-shadow: 0px 0px 100px 0px var( --color-green);
+    -moz-box-shadow: 0px 0px 100px 0px var( --color-green);
+    opacity: 0.6;
+} */
+
+.title2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    text-transform: uppercase;
+}
+
+.title3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    text-transform: uppercase;
+}
+@media (max-width: 700px) {
+    .title2{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

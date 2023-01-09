@@ -1,0 +1,136 @@
+.time {
+}
+.container {
+}
+.time__title{
+    margin-bottom: 20px;
+}
+.time__subtitle{
+    color: var(--color-blue);
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.man__img{
+    display: block;
+    margin: 0 auto;
+}
+.time__content__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    padding: 43px 0px 67px 0px
+}
+.time--start,
+.time--finish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.time--start span,
+.time--finish span{
+    font-size: 60px;
+    line-height: 72px;
+}
+.time--start{
+    color: var(--color-blue);
+}
+.time--finish{
+    color: var(--color-green);
+}
+
+.time--middle {
+}
+.time__swiper {
+    width: 500px;
+    height: 320px;
+}
+.time-wrapper {
+}
+.swiper-wrapper {
+}
+.time-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    color: #fff;
+}
+.time-slide:nth-child(1) {
+    background-color: #029DDA;;
+  }
+.time-slide:nth-child(2) {
+    background-color: #1DAFBF;
+  }
+.time-slide:nth-child(3) {
+    background-color: #38C1A3;
+  }
+.swiper-slide {
+}
+.time__img--box{
+    position: relative;
+}
+.time__img {
+    margin-bottom: 31px;
+    opacity: 0.5;
+}
+.time__img--text{
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.time__border{
+    width: 300px;
+    height: 2px;
+    border-top: 2px dashed var(--color-white);
+    margin-bottom: 10px;
+}
+.time__title--middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.time__text--middle {
+    max-width: 300px;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.time--finish {
+}
+
+@media (max-width: 750px) {
+    .time__content__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 43px 0px 37px 0px
+    }
+    .time--start,
+    .time--finish{
+        display: none;
+    }
+    .man__img{
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .time__subtitle{
+        margin-bottom: 0px;
+    }
+    .time__swiper {
+        width: 250px;
+        height: 320px;
+    }
+    .time__border{
+        width: 245px;
+    }
+}

@@ -1,0 +1,115 @@
+.review {
+    text-align: center;
+    background-color: var(--color-blue-bg);
+    padding-top: 51px;
+    padding-bottom: 60px;
+}
+.review__title {
+    margin-bottom: 30px;
+}
+.review__title span{
+    color: var(--color-green);
+}
+.swiper__review {
+    position: relative;
+    max-width: 1200px;
+    height: 358px;
+
+    overflow: hidden;
+    
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.swiper__review-wrapper{
+    height: 308px;
+}
+.swiper__review--box {    
+    max-width: 371px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+}
+.review--box {
+    padding: 16px 20px 14px 20px;
+}
+.review--top {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 12px;
+}
+.review__user--box {
+    display: flex;
+    align-items: center;
+    gap: 0px 18px;
+}
+.review__img-user {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+.review__user-info--box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.review__date-user {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: var(--color-grey);
+}
+.review__market--box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.review__market--box p{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+
+    color: var(--color-grey);   
+}
+.review__text {
+    max-width: 330px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-bottom: 6px;
+}
+.review__subtitle {
+    text-align: left;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-blue);
+
+    margin-bottom: 18px;
+}
+.review__img--box {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.review__img{
+    width: 33%;
+    height: auto;
+}
+@media (max-width:1190px) {
+    .swiper__review {
+        max-width: 800px;
+    }
+}
+
+@media (max-width:800px) {
+    .swiper__review {
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,16 @@
+.video {
+}
+.container {
+}
+.video__content__wrapper{
+    margin-bottom: 90px;
+}
+.time__button {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0 9px;
+    padding: 0px 4px;
+}
+.time__icon {
+}

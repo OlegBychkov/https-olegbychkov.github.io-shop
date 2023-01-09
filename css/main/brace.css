@@ -1,0 +1,14 @@
+.brace {
+    background-color: var(--color-bg);
+    padding-bottom: 41px; 
+    text-align: center;  
+}
+.brace__img {
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .brace {
+        background-color: var(--color-white);
+    }
+}

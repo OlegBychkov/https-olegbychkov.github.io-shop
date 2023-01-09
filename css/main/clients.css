@@ -1,0 +1,54 @@
+.clients {
+}
+.container {
+}
+.clients__content__wrapper{
+    padding-top: 48px;
+    padding-bottom: 98px;
+}
+.clients__title {
+    text-align: center;
+    margin-bottom: 46px;
+}
+.swiper__clients {
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0px 40px;
+}
+.swiper__clients-wrapper {
+
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    text-align: center;
+}
+.swiper-slide img{
+    text-align: center;
+}
+.swiper--box {
+}
+.swiper__clients-button-prev,
+.swiper__clients-button-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.swiper__clients-button-prev {
+    right: 0;
+    z-index: 10;
+}
+.swiper__clients-button-next {
+    left: 0px;
+    z-index: 12;
+}
+
+@media (max-width: 800px) {
+    .swiper__clients {
+    max-width: 800px;
+    }
+}
